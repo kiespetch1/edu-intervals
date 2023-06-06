@@ -268,7 +268,7 @@ const Main = () => {
           >
             Далее
           </Button>
-          <p className="answer">
+          <div className="answer">
             {success === true && <p className="true">Верно</p>}
             {success === false && (
               <p className="false">
@@ -278,7 +278,7 @@ const Main = () => {
                   : halfsteps}
               </p>
             )}
-          </p>
+          </div>
         </div>
       </div>
     </div>
