@@ -10,7 +10,14 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import "./styles.css";
 
-const Sidebar = ({ sidebarItemClick, setIsAccords, fetchAccordData }) => {
+const Sidebar = ({
+  sidebarItemClick,
+  setIsAccords,
+  fetchAccordData,
+  setAccords,
+  setButtonsValues,
+  setAccordsValue,
+}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -74,6 +81,12 @@ const Sidebar = ({ sidebarItemClick, setIsAccords, fetchAccordData }) => {
               onClick={() => {
                 setIsAccords(true);
                 fetchAccordData();
+                setButtonsValues(["Мажорные", "Минорные"]);
+                setAccords([
+                  [3, 4],
+                  [4, 3],
+                ]);
+                setAccordsValue(1);
               }}
             />
           </ListItem>

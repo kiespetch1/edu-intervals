@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.guide-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #fff;
+
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+
+  /* Стили для блока с текстом */
+  .text-block {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* Красивый шрифт */
+
+  .guide-page {
+    font-family: "Poppins", Arial, sans-serif;
+  }
+}

@@ -1,3 +1,9 @@
 .menu-button {
   padding: 0 20px !important;
 }
+
+@media (min-width: 600px) {
+  .MuiPaper-root {
+    top: 64px !important;
+  }
+}
