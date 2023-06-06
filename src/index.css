@@ -5,7 +5,7 @@
 }
 
 .wrapper {
-  height: 100%;
+  height: 80%;
 }
 
 .theory__button {
@@ -82,9 +82,9 @@
   font-size: 30px;
   text-align: center;
   position: absolute;
-  bottom: -48px;
+  bottom: -24px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, 100%);
   width: 100%;
 }
 
