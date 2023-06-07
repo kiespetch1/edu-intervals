@@ -1,0 +1,8 @@
+version: "3.4"
+services:
+  client:
+    build:
+      context: .     # Путь к каталогу с проектом React.js
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000   
